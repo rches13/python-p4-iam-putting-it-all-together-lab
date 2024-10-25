@@ -1,3 +1,5 @@
+
+
 import pytest
 from sqlalchemy.exc import IntegrityError
 
@@ -71,4 +73,3 @@ class TestRecipe:
                     instructions="idk lol")
                 db.session.add(recipe)
                 db.session.commit()
-
